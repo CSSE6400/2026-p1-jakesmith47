@@ -3,13 +3,13 @@
  ### Health 
  GET {{baseUrl}}/api/v1/health 
  
- ### List All Todos 
+### List All Todos 
  GET {{baseUrl}}/api/v1/todos 
  
- ### Get a specific Todo 
+### Get a specific Todo 
  GET {{baseUrl}}/api/v1/todos/1 
  
- ### Create a Todo 
+### Create a Todo 
  POST {{baseUrl}}/api/v1/todos 
  Content-Type: application/json 
  
@@ -18,7 +18,7 @@
     "description": "This is an example todo", 
  } 
  
- ### Update a Todo 
+### Update a Todo 
  PUT {{baseUrl}}/api/v1/todos/1 
  Content-Type: application/json 
  
@@ -26,5 +26,5 @@
     "title": "updated title", 
  } 
  
- ### Delete a Todo 
+### Delete a Todo 
  DELETE {{baseUrl}}/api/v1/todos/1
